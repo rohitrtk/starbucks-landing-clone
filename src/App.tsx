@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import { ImageContentBox } from "./components/ContentBox";
+import Footer from "./components/Footer";
 
-function App() {
+import "./App.css";
+
+import content from "./content/content.json";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Navbar />
+      <Body />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
+
+const Body = () => {
+  return (
+    <div className="body">
+      {content.map(({ title, text, src, buttonName, reverse }) => {
+        return (
+          <ImageContentBox
+            title={title}
+            text={text}
+            src={src}
+            reverse={reverse}
+            buttonText={buttonName}
+          />
+        );
+      })}
+    </div>
+  );
+};

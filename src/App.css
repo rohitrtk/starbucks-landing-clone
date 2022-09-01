@@ -1,38 +1,141 @@
-.App {
+:root {
+  --colourGreenStarbucks: #006241;
+  --colourGreenLight: #d4e9e2;
+  --colourGreenDark: #1e3932;
+  --colourGreenApron: #00a862;
+  --colourGreenAccent: #00754a;
+  --colourWhite: #fff;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background: none;
+  border: 1px #000 solid;
+  border-radius: 50px;
+  padding: 7px 16px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
+
+.btn-dark-outline {
+  border-color: #000;
+  color: #000;
+}
+
+.btn-dark-outline:hover,
+.btn-light-outline:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-light-outline {
+  border-color: #fff;
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: var(--colourGreenStarbucks);
+  color: var(--colourWhite);
+}
+
+.bg-secondary {
+  background-color: var(--colourGreenLight);
+  color: var(--colourGreenDark);
+}
+
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-xl {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.text-lg {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.text-md {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-sm {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.py-lg {
+  padding: 40px 0;
+}
+
+.py-md {
+  padding: 20px 0;
+}
+
+.py-sm {
+  padding: 10px 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body {
+  box-shadow: inset 0 -1px 3px rgba(0, 0, 0, 0.1), 0 -2px 2px rgb(0, 0, 0, 0.06),
+    inset 0 0 2px rgb(0, 0, 0, 0.5);
+  padding-bottom: 5px;
+}
+
+@media (max-width: 960px) {
+  .text-xl {
+    font-size: 30px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .text-lg {
+    font-size: 25px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .text-md {
+    font-size: 19px;
   }
 }

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Fall at your fingertips",
+    "text": "Ordering your fall favourites is a snap with the app. Join Starbucks® Rewards and tap into fall.",
+    "src": "sb-1.jpeg",
+    "buttonName": "Join now"
+  },
+  {
+    "title": "Welcome home, pumpkin",
+    "text": "Fall favourites return with the blissful Pumpkin Spice Latte and smooth Pumpkin Cream Cold Brew.",
+    "src": "sb-2.jpeg",
+    "buttonName": "Learn more",
+    "reverse": true
+  },
+  {
+    "title": "Layers of baked apple yum",
+    "text": "Try the new nondairy Apple Crisp Oat Macchiato with creamy oat beverage.",
+    "src": "sb-3.jpeg",
+    "buttonName": "Learn more"
+  },
+  {
+    "title": "Picks of the patch",
+    "text": "Choose a comforting classic: Pumpkin Cream Cheese Muffin, Pumpkin & Pepita Loaf or Pumpkin Scone.",
+    "src": "sb-4.jpeg",
+    "buttonName": "Learn more",
+    "reverse": true
+  }
+]

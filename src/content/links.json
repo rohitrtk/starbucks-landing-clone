@@ -1,0 +1,22 @@
+[
+  {
+    "title": "About Starbucks",
+    "links": ["Our Company", "Our Coffee", "Stories and News", "Investor Relations", "Customer Service"]
+  },
+  {
+    "title": "Careers",
+    "links": ["Culture and Values", "Diversity and Inclusion", "Work at Starbucks", "Corporate Careers", "Retail Careers"]
+  },
+  {
+    "title": "Social Impact",
+    "links": ["Overview", "People", "Planet", "Enviornment and Social Impact Reporting"]
+  },
+  {
+    "title": "For Business Partners",
+    "links": ["Corporate Gift Card Sales", "Branded Solutions"]
+  },
+  {
+    "title": "Order and Pickup",
+    "links": ["Order on the App", "Order on the Web", "Delivery", "Order and Pickup Options", ""]
+  }
+]

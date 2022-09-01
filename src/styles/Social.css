@@ -1,0 +1,17 @@
+.social {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.social svg {
+  width: 32px;
+  height: 32px;
+  overflow: visible;
+  fill: currentColor;
+}
+
+.social a {
+  text-decoration: none;
+  margin-right: 20px;
+}

@@ -1,0 +1,22 @@
+.footer-links {
+  margin-top: 25px;
+}
+
+.grid-col-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: space-between;
+}
+
+.footer-link-title {
+  margin-bottom: 35px;
+}
+
+.footer-link {
+  margin: 20px 0;
+}
+
+.footer-link a {
+  text-decoration: none;
+}
