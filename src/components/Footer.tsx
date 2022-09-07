@@ -27,7 +27,9 @@ const Privacy = () => {
   return (
     <div className="footer-privacy">
       <span>
-        <a href="/">Privacy Statement</a>
+        <a href="/" className="text-sm">
+          Privacy Statement
+        </a>
       </span>
       {"|"}
       <span>

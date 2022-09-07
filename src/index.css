@@ -1,13 +1,18 @@
 @font-face {
-  font-family: Imported;
+  font-family: SodoSands;
   src: url(./font/SoDo\ Sans\ SemiBold.ttf);
+}
+
+@font-face {
+  font-family: VDana;
+  src: url(./font/Verdana.ttf);
 }
 
 body {
   margin: 0;
   background-color: "#FFF";
   color: "rgba(0, 0, 0, 0.87)";
-  font-family: Imported;
+  font-family: SodoSands;
   font-weight: bold;
   line-height: 1.5;
   letter-spacing: -0.01rem;

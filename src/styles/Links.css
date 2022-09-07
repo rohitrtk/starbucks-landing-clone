@@ -15,10 +15,12 @@
 
 .footer-link {
   margin: 20px 0;
+  font-family: VDana;
 }
 
 .footer-link a {
   text-decoration: none;
+  color: grey;
 }
 
 .footer-link-dropdown {
@@ -30,6 +32,11 @@
 
 .footer-link-dropdown-info {
   display: block;
+}
+
+.footer-link-dropdown-info.hidden {
+  max-height: 0;
+  overflow: hidden;
 }
 
 .dropdown {
@@ -70,11 +77,6 @@
 .link-section-dropdown {
   display: none;
   padding-top: 10px;
-}
-
-.footer-link-dropdown-info.hidden {
-  max-height: 0;
-  overflow: hidden;
 }
 
 @media (max-width: 768px) {

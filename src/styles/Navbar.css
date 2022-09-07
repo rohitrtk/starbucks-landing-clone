@@ -156,6 +156,7 @@ nav a:hover {
   border-bottom: #777 solid 1px;
   padding-bottom: 10px;
   margin-bottom: 30px;
+  display: block;
 }
 
 .mobile-menu a {
